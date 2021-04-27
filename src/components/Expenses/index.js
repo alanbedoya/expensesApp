@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExpenseItem, Card } from '../../components';
 import './Expenses.css';
 
