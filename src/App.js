@@ -1,11 +1,12 @@
-import { Expenses } from './components';
+import { Expenses, NewExpense } from './components';
 
-function App() {
+const App = () => {
   return (
     <div>
+      <NewExpense />
       <Expenses />
     </div>
   );
-}
+};
 
 export default App;
