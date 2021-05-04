@@ -1,6 +1,10 @@
 .new-expense {
-  background-color: #5f6769;
-  color: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  color: #588da8;
   padding: 1rem;
   margin: 2rem auto;
   width: 50rem;
@@ -27,12 +31,12 @@
 }
 
 .new-expense button.alternative {
-  color: #220131;
+  color: #d9adad;
   border-color: transparent;
   background-color: transparent;
 }
 
 .new-expense button.alternative:hover,
 .new-expense button.alternative:active {
-  background-color: #ddb3f8;
+  background-color: #d9adad;
 }
