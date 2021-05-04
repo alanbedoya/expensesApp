@@ -8,3 +8,4 @@ export * from './ExpenseFilter';
 export * from './ExpensesList';
 export * from './Chart';
 export * from './ChartBar';
+export * from './ExpensesChart';

@@ -1,9 +1,15 @@
 .chart {
   padding: 1rem;
   border-radius: 12px;
-  background-color: #f8dfff;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
   text-align: center;
   display: flex;
   justify-content: space-around;
   height: 10rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
