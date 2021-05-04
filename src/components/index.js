@@ -6,3 +6,5 @@ export * from './NewExpense';
 export * from './ExpenseForm';
 export * from './ExpenseFilter';
 export * from './ExpensesList';
+export * from './Chart';
+export * from './ChartBar';
